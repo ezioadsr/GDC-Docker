@@ -30,7 +30,7 @@ Existem 2 tipos de versão do docker:
     * Possui outras ferramentas para auxiliar na gerência da infraestrutura.
 
 
-![Docker versions](docker_engine_versions.png)
+![Docker versions](assets/docker_engine_versions.png)
 
 ## Glossário
  * host, diz respeito a máquina onde está rodando o docker, geralmente linux (pode ser Windows Server 2016).
