@@ -126,8 +126,8 @@ Redes possuem as mesmas caracteristicas de redes físicas normais.
 É uma ferramenta pra definir e rodar multiplos containers. 
 * mais utilizado em desenvolvimento e teste, não recomendado para ambiente de produção.
 * da ao desenvolvedor possibilidade de criar cenários mais complexos sem que exija conhecimento sobre docker.
-* `docker-compose up` - executa (run) os containers a partir de um arquivo de configuração escrito em yaml, normalmente chamado docker-compose.yml presente no diretório atual (.). Internamente é equivalente ao `docker container run [arguments]`.
-* `docker-compose down` - para (stop) os containers a partir de um arquivo de configuração escrito em yaml, normalmente chamado docker-compose.yml. Internamente é equivalente ao `docker container stop`
+* `docker-compose up` - executa (run) os containers a partir de um arquivo de configuração escrito em yaml, normalmente chamado docker-compose.yml presente no diretório atual (.). 
+* `docker-compose down` - para (stop) os containers a partir de um arquivo de configuração escrito em yaml, normalmente chamado docker-compose.yml presente no diretório atual (.). 
 
 > Quando o nome do arquivo é diferente de docker-compose.yml, é nessessário passar como 
 > parametro do docker-compose o nome do arquivo. Ler documentação
