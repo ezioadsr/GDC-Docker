@@ -98,7 +98,7 @@ Volume surgiu para contornar o problema da não persistência dos dados de um co
 Os dados gravados em um volume, ficam salvos no host mesmo que o container seja destruído. 
 
 Volumes podem ter visibilidade local (somente o container tem acesso ao volume) quanto podem ser compartilhados entre 
-os containers, por meio do host. Existe também a possibilidade de se fazer o bind de um diretório do host no container. [Ver mais em docker-compose](##docker-compose)
+os containers, por meio do host. Existe também a possibilidade de se fazer o bind de um diretório do host no container. [Ver mais em docker-compose](#docker-compose)
 
 `docker volume --help`
 
@@ -121,7 +121,7 @@ Redes possuem as mesmas caracteristicas de redes físicas normais.
 * none -> Não se conecta a nenhuma rede. (Nessa rede, os containers ficam isolados)
 * host -> Se conecta diretamente na rede do host, está exposto a conexões de fora do host. (Como se as portas do container fossem as mesmas portas do host)
 
-##docker-compose
+## docker-compose
 
 É uma ferramenta pra definir e rodar multiplos containers. 
 * mais utilizado em desenvolvimento e teste, não recomendado para ambiente de produção.
