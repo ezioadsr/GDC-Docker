@@ -136,7 +136,7 @@ Redes possuem as mesmas caracteristicas de redes físicas normais.
 
 [Exemplo 2](compose-sample-2)
 
-[Exemplo 2](compose-sample-3)
+[Exemplo 3](compose-sample-3)
 
 ## Registry
 
