@@ -35,7 +35,7 @@ Existem 2 tipos de versão do docker:
 ## Glossário
  * host, diz respeito a máquina onde está rodando o docker, geralmente linux (pode ser Windows Server 2016).
  
- * hospedeiro, diz respeito a máquina física onde está instalado um virtualizador. (Windows e Mac. Virtual Box e Hyper-V no caso do Windows)
+ * hospedeiro, diz respeito a máquina física onde está instalado um virtualizador com a docker-machine. (Windows e Mac. Virtual Box e Hyper-V no caso do Windows)
 
 > As palavras tem o mesmo significado, mas aqui, consideremos os significados atribuidos a elas nesta seção para facilitar o entendimento.
 
